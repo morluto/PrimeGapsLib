@@ -26,7 +26,7 @@ sources:
     authors: [James Maynard]
     id: "https://doi.org/10.4007/annals.2015.181.1.7"
     type: "article"
-    location: "Theorem 1.4, second inequality"
+    location: "Theorem 1.3"
     relationship: "background"
     note: "Along the way to the 246 result, we also formalise the fact that the Bombieri-Vinogradov theorem implies Maynard's 600 bound. However, this is not the primary result of this repository, and is mentioned here purely for completeness."
 
@@ -83,7 +83,7 @@ alignment:
       module: "PrimeGaps.Bounded246"
       status: "Proved, conditional on the Bombieri-Vinogradov theorem"
       note: "The primary result of this repository."
-    - source: "Small gaps between primes (Theorem 1.4, second inequality)"
+    - source: "Small gaps between primes (Theorem 1.3)"
       lean: "bombieriVinogradov_implies_prime_gap_le_600"
       module: "PrimeGapsTheory.Endgame.Main"
       status: "Proved, conditional on the Bombieri-Vinogradov theorem"
