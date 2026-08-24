@@ -13,14 +13,17 @@ weak.linter.mathlibStandardSet = true
 weak.linter.style.header = false
 
 [[require]]
+name = "PrimeNumberTheoremAnd"
+git = "https://github.com/morluto/PrimeNumberTheoremAnd.git"
+rev = "674f3b84fae034a51c49c89e2547c37a6edd0fb8"
+
+# Keep this require last so that Mathlib's pins of transitive dependencies
+# (batteries, aesop, Qq, ...) take precedence over those recorded in the
+# PrimeNumberTheoremAnd manifest.
+[[require]]
 name = "mathlib"
 scope = "leanprover-community"
-rev = "288f16d9a07189233a9bc5e1c143c38d1f3f4d37"
-
-[[require]]
-name = "PrimeNumberTheoremAnd"
-git = "https://github.com/AxiomMath/PrimeNumberTheoremAnd.git"
-rev = "main"
+rev = "db584cd6d46c92f209a44c0f1c829460d327499d"
 
 [[lean_lib]]
 name = "PrimeGapsCert"
